@@ -2,7 +2,11 @@ body {
     background-color: #161a30;
 }
 h1 {
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 3rem;
     color: #e4f1ff;
+    font-size: 60px;
 }
 
 /* navbar */
@@ -19,6 +23,9 @@ h1 {
     left: 0;
     right: 0;
     z-index: 9999;
+}
+.navbar .navbar-logo {
+    margin-left: 1rem;
 }
 
 .navbar .navbar-nav a {
@@ -47,7 +54,40 @@ h1 {
     display: none;
 }
 
+/* hero section */
+
 /* media queries */
+
+.card p {
+    position: absolute;
+    margin-left: 7rem;
+    color: #fff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* .card p {
+    position: relative;
+    background: #161a30 center center;
+    background-size: cover;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p::after {
+    content: attr(p);
+    position: absolute;
+    bottom: 20px;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px 10px 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transform: translateY(60px);
+    opacity: 0;
+    transition: all 400ms;
+} */
 /* laptop */
 @media (max-width: 1366px) {
     html {
@@ -86,80 +126,3 @@ h1 {
         font-size: 55%;
     }
 }
-
-/* a {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-}
-
-body {
-    min-height: 100vh;
-    background-color: #27005D;
-    background-size: cover;
-    background-position: center;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1.3rem 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(225, 225, 225, 15);
-    backdrop-filter: blur(50px);
-    z-index: -1;
-}
-
-span {
-    color: #E4F1FF;
-}
-
-.name {
-    font-size: 2rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 520;
-}
-
-.navbar {
-    font-size: 1.15rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 2.5rem;
-    transition: .50s ease;
-}
-
-.navbar a:hover {
-    color: #AED2FF;
-    padding-right: 10px;
-}
-
-#check {
-    display: none;
-}
-
-.menu {
-    position: absolute;
-    right: 5%;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
-}
- */

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,16 +21,39 @@
         </a>
 
         <div class="navbar-nav">
-            <a href="#">Home</a>
-            <a href="#">Tranding</a>
-            <a href="#">Recomendasi</a>
+            <a href="#home">Home</a>
+            <a href="#tranding">Tranding</a>
+            <a href="#recomend">Recomendasi</a>
         </div>
 
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search"></i></a>
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+            <a href="#" id="login"><i data-feather="log-in"></i></a>
         </div>
     </nav>
+    
+    {{-- nav end --}}
+    <section class="hero" id="hero">
+        <h1>Terbaru</h1>
+    </section>
+
+    {{-- hero section start --}}
+    {{-- <section class="hero" id="home">
+        <main class="content">
+
+        </main>
+    </section> --}}
+
+    {{-- hero section end --}}
+
+    <div class="row">
+        <div class="card">
+        <img src="img/terbaru/jung_e.png" >
+        <p class="text">Jung_e</p>
+        </div>
+    </div>
+
 
 
     {{-- feather icons --}}
